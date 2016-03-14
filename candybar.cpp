@@ -1,3 +1,6 @@
+// Jerry M. Sypkens 
+// COS 393 8100 Prof. P. Ghaforyfard
+
 #include <iostream>
 using namespace std;
 

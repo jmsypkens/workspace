@@ -22,8 +22,9 @@ int main() {
     cout << "Please ener the time it took runner one to the finish the race in seconds: " << endl;
     cin  >> runnerOneTime; 
     
-    if (runnerOneTime >= 0) {
+    if (runnerOneTime > 0) {
         cout << playerOne << " ran the race in " << runnerOneTime << " seconds.\n"; 
+        cout << "" << endl; 
     }
     else { //Runner One Validation
         cout << "You didn't enter a valid number.\n"
@@ -37,8 +38,9 @@ int main() {
     cout << "Please ener the time it took runner two to the finish the race in seconds: " << endl;
     cin  >> runnerTwoTime; 
     
-    if (runnerTwoTime >= 0) {
+    if (runnerTwoTime > 0) {
         cout << playerTwo << " ran the race in " << runnerTwoTime << " seconds.\n"; 
+        cout << "" << endl; 
     }
     else { // Runner Two Validation 
         cout << "You didn't enter a valid number.\n"
@@ -52,8 +54,9 @@ int main() {
     cout << "Please ener the time it took runner three to the finish the race in seconds: " << endl;
     cin  >> runnerThreeTime; 
     
-    if (runnerThreeTime >= 0) {
+    if (runnerThreeTime > 0) {
         cout << playerThree << " ran the race in " << runnerThreeTime << " seconds.\n";
+        cout << "" << endl; 
     }
     else { // Runner Three Validation 
         cout << "You didn't enter a valid number.\n"

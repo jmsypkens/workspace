@@ -1,6 +1,6 @@
 // Jerry M. Sypkens 
 // COS 393 8100 Prof. P. Ghaforyfard
-// Week 3 Homework Due March 14, 2016 - Chapter 4, Exercise 12. Running the Race
+// Week 3 Homework Due March 15, 2016 - Chapter 4, Exercise 12. Running the Race
 
 // Write a program that asks for the names of three runners and the time it took each of them
 // to ﬁnish a race. The program should display who came in ﬁrst, second, and third place.

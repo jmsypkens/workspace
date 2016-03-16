@@ -19,7 +19,7 @@ int main() {
     //Runner One
     cout << "Please enter the name of runner number one: " << endl; 
     cin >> playerOne; 
-    cout << "Please ener the time it took runner one to the finish the race in seconds: " << endl;
+    cout << "Please enter the time it took runner one to the finish the race in seconds: " << endl;
     cin  >> runnerOneTime; 
     
     if (runnerOneTime > 0) {

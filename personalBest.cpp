@@ -35,6 +35,7 @@ int main() {
     if (vaultHeight1 >= 2.0 && vaultHeight1 <= 5.0) {
         cout << pvName << " first result was " << vaultHeight1 << " meters. \n" 
              << "Pole Vault 1 Date: " << m1 << slash_dummy << d1 << slash_dummy << y1 << endl;
+        cout << "" << endl;
     }
     else { // vault height validation
         cout << "You didn't enter a valid pole vault height.\n"
@@ -52,6 +53,7 @@ int main() {
     if (vaultHeight2 >= 2.0 && vaultHeight2 <= 5.0) {
         cout << pvName << "'s second result was " << vaultHeight2 << " meters. \n" 
              << "Pole Vault 2 Date: " << m2 << slash_dummy << d2 << slash_dummy << y2 << endl;
+        cout << "" << endl;
     }
     else { // vault height validation
         cout << "You didn't enter a valid pole vault height.\n"
@@ -69,6 +71,7 @@ int main() {
     if (vaultHeight3 >= 2.0 && vaultHeight3 <= 5.0) {
         cout << pvName << "'s third result was " << vaultHeight3 << " meters. \n" 
              << "Pole Vault 3's Date: " << m3 << slash_dummy << d3 << slash_dummy << y3 << endl;
+        cout << "" << endl;
     }
     else { // vault height validation
         cout << "You didn't enter a valid pole vault height.\n"
@@ -109,7 +112,7 @@ int main() {
     }
     
     //213
-    else if (vaultHeight2 <= vaultHeight1 && vaultHeight1 <= vaultHeight3) {
+    else if (vaultHeight2 >= vaultHeight1 && vaultHeight1 >= vaultHeight3) {
         cout << "Here are " << pvName << "'s results from best to last:" << endl;
         
         cout << "1. First Best: " << vaultHeight2 << " meters." << endl;
@@ -125,7 +128,7 @@ int main() {
     
     
     //231
-    else if (vaultHeight2 <= vaultHeight3 && vaultHeight3 <= vaultHeight1) {
+    else if (vaultHeight2 >= vaultHeight3 && vaultHeight3 >= vaultHeight1) {
         cout << "Here are " << pvName << "'s results from best to last:" << endl;
         
         cout << "1. First Best: " << vaultHeight2 << " meters." << endl;
@@ -139,7 +142,7 @@ int main() {
     }
     
     //312
-    else if (vaultHeight3 <= vaultHeight1 && vaultHeight1 <= vaultHeight2) {
+    else if (vaultHeight3 >= vaultHeight1 && vaultHeight1 >= vaultHeight2) {
         cout << "Here are " << pvName << "'s results from best to last:" << endl;
         
         cout << "1. First Best: " << vaultHeight3 << " meters." << endl;

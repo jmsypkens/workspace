@@ -1,6 +1,6 @@
 // Jerry M. Sypkens 
 // COS 393 8100 Prof. P. Ghaforyfard
-// Week 2 Homework Due March 7, 2016 - 8. Box Office
+// Assignment # 4 Homework Due March 22, 2016 - 24. Using Files—Total and Average Rainfall
 
 /* 24. Using Files—Total and Average Rainfall
 Write a program that reads in from a ﬁle a starting month name, an ending month name,

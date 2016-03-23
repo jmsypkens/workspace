@@ -1,6 +1,6 @@
 // Jerry M. Sypkens 
 // COS 393 8100 Prof. P. Ghaforyfard
-// Week 2 Homework Due March 7, 2016 - 8. Box Office
+// Assignment # 4 Homework Due March 22, 2016 - 23. Savings Account Balance 
 
 /* 23. Savings Account Balance
  Write a program that calculates the balance of a savings account at the end of a three-

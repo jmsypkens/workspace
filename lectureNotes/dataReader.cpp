@@ -4,22 +4,22 @@ using namespace std;
 
 int main()
 {
-    ofstream outputFile;
+    ifstream inputFile;
+    string name;
     
     // opens output file
-    outputFile.open("demofile.txt");
+    inputFile.open("friends.txt");
     
-    cout << "Now writing data to the file. \n";
+    cout << "Now reading data from the file. \n";
+
+    inputFile >> name;
+    cout << name << endl;
     
-    // write four names to the file
-    outputFile << "Debussy\n";
-    outputFile << "Bach\n";
-    outputFile << "Chopin\n";
-    outputFile << "Rachmaninoff\n";
-    outputFile << "Mozart\n";
+    inputFile >> name;
+    cout << name << endl;
     
     // close file 
-    outputFile.close();
+    inputFile.close();
     
     cout << "Done.\n";
     return 0; 

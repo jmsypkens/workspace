@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <ctype.h> 
 using namespace std; 
 
 int main() 
@@ -26,7 +27,7 @@ int main()
         cout << "Is DVD # " << dvdCount << " a current release (Y/N)? ";
         cin  >> current; 
         
-        if ((current == 'Y') || (current == 'y'))
+        if (toupper(current == 'Y'))
             total += 3.50;
         else
             total += 2.50;

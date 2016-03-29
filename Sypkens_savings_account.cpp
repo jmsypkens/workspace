@@ -66,7 +66,8 @@ int main() {
     for (int mnt = 1; mnt <= 3; mnt++) 
     {
         
-        do {
+        do 
+        {
             // user enters deopsits for month
             // validate only + integers
             
@@ -90,14 +91,16 @@ int main() {
                      << "during the month of " << mnt << "?: ";
                 cin  >> withdrawn; 
                 
-                if (withdrawn < 0 || withdrawn > totalDeposit) {	
+                if (withdrawn < 0 || withdrawn > totalDeposit) 
+                {	
 				    cout << "Invalid entry.\n";
 
-				    if (withdrawn < 0) {
-					cout << "Withdrawals must be a positive number.\n";
+				    if (withdrawn < 0) 
+				    {
+					    cout << "Withdrawals must be a positive number.\n";
 				    } 
 				    else {
-					cout << "The balance must be greater than the withdrawals.\n";
+					    cout << "The balance must be greater than the withdrawals.\n";
 			 	    }
                 } 
             } while (withdrawn < 0 || withdrawn > totalDeposit);
@@ -118,7 +121,7 @@ int main() {
             totalInt = totalInt + mntInterest; 
             
             mntStart = mntEnd + mntInterest; 
-        } 
+        }
     
     // Display report
 	cout << "\n Quarterly Savings Account Report: \n"

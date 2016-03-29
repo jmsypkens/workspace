@@ -3,7 +3,7 @@
 using namespace std;
 
 // function prototype 
-void displayValue(int num);
+void displayValue(int num); // tells what kind of data type the function passes.
 
 
 int main()

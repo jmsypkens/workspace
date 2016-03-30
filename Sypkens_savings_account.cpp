@@ -121,7 +121,7 @@ int main() {
             totalInt = totalInt + mntInterest; 
             
             mntStart = mntEnd + mntInterest; 
-        }
+        } 
     
     // Display report
 	cout << "\n Quarterly Savings Account Report: \n"

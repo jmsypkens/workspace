@@ -20,12 +20,12 @@
 *	• Charges for hospital services (lab tests, etc.)
 *	• Hospital medication charges.
 *
-* The program should use two overloaded functions to calculate the total charges.
-* One of the functions should accept arguments for the in-patient data, while the
-* other function accepts arguments for out-patient data. 
-* Both functions should return the total charges.
-* 
-* Input Validation: Do not accept negative numbers for any information.
+* Use a single, separate function to validate that no input is less than zero. If it is, it should
+* be re-entered before being returned.
+* Once the required data has been input and validated, the program should use two
+* overloaded functions to calculate the total charges. One of the functions should accept
+* arguments for the in-patient data, while the other function accepts arguments for out-
+* patient data. Both functions should return the total charges.
 ***********************************************************************************/
 
 #include <iostream>
@@ -75,7 +75,6 @@ int main()
 				   		{
 				   			cout << "Rate must be greater than 0.\n";
 				   		}
-
 				   	} while(dailyRate < 0);
 					
 
@@ -138,19 +137,19 @@ int main()
 }
 
 /****************************************************************************
- *                          calcData (overloaded)                           *
- * This function accepts the arguments for in-patient data, calculates and  *
- * returns the total charges.                                               *
- ****************************************************************************/
+*                          calcData() - overloaded                       
+* This function accepts the arguments for inpatient data, calculates and  
+* returns the total charges.                                               
+****************************************************************************/
 double calcData(int numOfDays, double dailyRate, double servCharges,double medCharges)
 {
 	return (numOfDays * dailyRate) + calcData(servCharges, medCharges);
 }
 
 /****************************************************************************
- *                          calcData (overloaded)                           *
- * This function accepts the arguments for out-patient data, calculates and *
- * returns the total charges.                                               *
+*                          calcData() - overloaded                          
+* This function accepts the arguments for outpatient data, calculates and 
+* returns the total charges.                                               
  ****************************************************************************/
 double calcData(double servCharges, double medCharges)
 {

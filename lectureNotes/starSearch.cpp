@@ -97,7 +97,7 @@ double calcScore(double score1, double score2, double score3, double score4, dou
 	highScore = findHighest(score1, score2, score3, score4, score5);	
 	lowScore  = findLowest(score1, score2, score3, score4, score5);
 
-	if (highScore == static_cast<int>(score1))   // static_cast<''> turns double into int. 
+	if (highScore == static_cast<int>(score1))   // static_cast<''> turns double into int to compare to 'highScore' which is int.  
 	{
 		if (lowScore == static_cast<int>(score2))
 			average = (score3 + score4 + score5) / 3;

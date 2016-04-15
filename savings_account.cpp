@@ -95,7 +95,7 @@ int main()
 				}
 				else
 				{
-					cout << "The Balacne must be greater than withdrawals.\n";
+					cout << "The balance must be greater than withdrawals.\n";
 				}
 			}
 		  

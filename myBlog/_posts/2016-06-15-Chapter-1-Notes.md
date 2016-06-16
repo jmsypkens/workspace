@@ -1,5 +1,12 @@
-## Chapter 1 - Introduction to Computers and Programming 
+---
+layout: post
+title:  Chapter 1 - Introduction to Computers and Programming
+date:   2016-06-15 23:33:22 +0000
+categories: c++
+---
+
 ### How Computers Work
+
 ##### What is a program?
 + A program is a set of instructions.
 + The instructions are a collection of algorithms. 
@@ -43,7 +50,9 @@ Diagram of how a computer traditionally functions:
 + Audio Interface
 
 ##### Binary - Machine Code 
+
 ###### What is Binary Code?
+
 + 1 bit = one binary digit. 
 + 1 byte = eight bits. Written as: 01010010 
 + Example 1: In C++ 1 word uses 4 bytes of memory. 
@@ -67,7 +76,9 @@ There are two main kinds of programming languages, High Level Languages and Low 
 7. Comments!!! Comment your code. It will help you in the long run. 
 
 ### Introduction to C++ 
+
 #### Examples of Programming Entities
+
 1. Variables
 2. Functions 
 3. Objects
@@ -139,25 +150,8 @@ using namespace std;
 int main() 
     {
         int test1;
-        char test2;
-        float test3;
-        double test4;
-        long double test5;
-        
-        
+
         cout << "the size of an integer is " << sizeof(int);
-        cout << " bytes.\n";
-        
-        cout << "the size of a char is " << sizeof(char);
-        cout << " bytes.\n";
-        
-        cout << "the size of a float is " << sizeof(float);
-        cout << " bytes.\n";
-        
-        cout << "the size of a double is " << sizeof(double);
-        cout << " bytes.\n";
-        
-        cout << "the size of a long double is " << sizeof(long double);
         cout << " bytes.\n";
         
         return 0;
@@ -165,14 +159,12 @@ int main()
 ```
 
 > Output: 
-the size of an integer is 4 bytes.                                                                                                            
-the size of a char is 1 bytes.                                                                                                                
-the size of a float is 4 bytes.                                                                                                               
-the size of a double is 8 bytes.                                                                                                              
-the size of a long double is 16 bytes. 
+the size of an integer is 4 bytes.    
 
 ###### Example 4: "Getting a user input"
+
 Use "cin" to get a user input. 
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -194,7 +186,9 @@ int main() {
 ```
 
 ###### Example 5: "Comments"
+
 It is very important to use comments to document your code. 
+
 ```cpp
 /* 
 THIS IS HOW TO DO COMMENTS, USE THEM EVERY PROGRAM!

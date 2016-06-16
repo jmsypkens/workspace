@@ -1,0 +1,13 @@
+# Site settings
+title: Learn CS With Me! 
+email: jmsypkens@usfca.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Learn to code with me! This blog is dedicated to lecture notes, tutorials and 
+  other useful information compiled on my journey to becoming a code ninja.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: lovehalfblack
+github_username:  jmsypkens
+
+# Build settings
+markdown: kramdown

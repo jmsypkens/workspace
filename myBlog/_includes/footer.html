@@ -10,6 +10,10 @@
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
+      <form action="/search.html" method="get">
+        <input type="text" id="search_box" name="query">
+        <input type="submit" value="Search" style="height: 20px; background-color: Transparent; background-repeat: none; overflow: hidden; outline: none; font-size: .75em;border: 1.5px solid #53587B; color: #53587B;">
+      </form>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -30,9 +34,9 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
+        <br />
       </div>
     </div>
 
   </div>
-
 </footer>

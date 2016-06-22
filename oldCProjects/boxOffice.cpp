@@ -1,11 +1,14 @@
 // Jerry M. Sypkens 
-// COS 393 8100 Prof. P. Ghaforyfard
-// Week 2 Homework Due March 7, 2016 - 8. Box Office
+// WLAC COS 939 8526 PGHAF SU16
+// June 21, 2016 
+// Assignment 2: - 8. Box Office
 
 // This program calculates box office revenue. 
 
 #include <iostream>
 #include <string>
+#include <iomanip>
+
 using namespace std;
 
 const double adultTix = 6.00;
@@ -28,12 +31,16 @@ int main() {
     paidToDistributor = grossBOP * .80; // 80% of ticket sales go to distributor 
     netBOP = grossBOP * .20; // 20% of ticket sales go to theater 
     
-    cout << "Movie name: " << movieName << endl;
-    cout << "Adult Tickets Sold: " << adultTixSold << endl;
-    cout << "Childrens Tickets Sold: " << childTixSold << endl; 
-    cout << "Gross box office profit: $" << grossBOP << endl; 
-    cout << "Amount paid to distributor: $" << paidToDistributor << endl; 
-    cout << "Net box office profit: $" << netBOP << endl; 
+    cout << left << setw(50) << "Movie name: " << "\"" << movieName << "\"" << endl;
+    cout << left << setw(50) << "Adult Tickets Sold: " << adultTixSold << endl;
+    cout << left << setw(50) << "Childrens Tickets Sold: " << childTixSold << endl; 
+    
+    // sets decimal position 
+    cout << setprecision(2) << fixed ;
+    
+    cout << left << setw(50) << "Gross box office profit: " << "$" << grossBOP << endl; 
+    cout << left << setw(49) << "Amount paid to distributor: " << "-$" << paidToDistributor << endl; 
+    cout << left << setw(50) << "Net box office profit: " << "$" << netBOP << endl; 
     
     return 0; 
 }

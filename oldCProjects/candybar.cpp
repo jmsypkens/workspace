@@ -1,5 +1,7 @@
 // Jerry M. Sypkens 
-// COS 393 8100 Prof. P. Ghaforyfard
+// WLAC COS 939 8526 PGHAF SU16
+// June 21, 2016 
+// Assignment 1: - 1. Candy Bar Sales
 
 #include <iostream>
 using namespace std;

@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![alt text](http://netdna.webdesignerdepot.com/uploads/vintage_tech/seikowrist.jpg "Redic Computer")
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+> This blog is sort of like a running tab of my notes from classes and lectures I have attended, tutorials and books I have read on my journey to become a computer science ninja. I will also include post on projects I am currently working on. I hope that maybe the way I learn something or overcome a problem can help give some insight to others who are on the same journey. Please feel free to send me a message [here](mailto:jmsypkens@usfca.edu).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)

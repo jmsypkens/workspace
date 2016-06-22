@@ -3,7 +3,17 @@ layout: post
 title:  Chapter 1 - Introduction to Computers and Programming
 date:   2016-06-15 23:33:22 +0000
 categories: c++
+comments: true 
 ---
+
+#### Lecturer: Parvaneh Ghaforyfard 
+
+Lecture notes based on chapter 2 from:
+***[Starting Out with C++: Early Objects (8th Edition)](https://www.amazon.com/Starting-Out-Early-Objects-8th/dp/013336092X "Amazon Link")***
+
+***
+
+![alt text](http://assets2.thecreatorsproject.com/content-images/contentimage/no-slug/e4e149d87b4f8f5330c1e3c79c24ea6f.jpg "Homer")
 
 ### How Computers Work
 
@@ -59,6 +69,7 @@ Diagram of how a computer traditionally functions:
 
 ##### Programming Languages 
 There are two main kinds of programming languages, High Level Languages and Low Level Languages.
+
 + High Level Language: A machine-independent programming language, such as C, C++, Java, Perl and COBOL. It lets the programmer concentrate on the logic of the problem to be solved rather than the intricacies of the machine architecture such as is required with low-level assembly languages.
 + Low Level Language:  a low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture—commands or functions in the language map closely to processor instructions. Generally this refers to either machine code or assembly language. 
 

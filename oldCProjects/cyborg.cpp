@@ -1,3 +1,8 @@
+// Jerry M. Sypkens 
+// WLAC COS 939 8526 PGHAF SU16
+// June 21, 2016 
+// Assignment 1: - 5. Cyborg Data Type Sizes
+
 #include <iostream>
 using namespace std;
 
